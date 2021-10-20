@@ -14,10 +14,10 @@ for (var i = 0; i < gridSize**2; i++){
 	content.classList.add('sketch-grid');
 	sketchBody.appendChild(content);
 	content.addEventListener("mouseover",function(e){
-		if(e.buttons == 1){
+		//if(e.buttons == 1){
 			color = document.getElementById("favcolor").value;
 			this.style.backgroundColor=color;
-		}
+		//}
 	});
 }
 
