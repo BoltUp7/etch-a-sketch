@@ -1,0 +1,32 @@
+* {
+	box-sizing: border-box;
+}
+
+.sketch-body{
+	width: 50%;
+
+}
+
+.flex-rows{
+	display:flex;
+	flex: 1;
+}
+
+.flex-columns{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#grid {
+	display: grid;
+	grid-template-columns: repeat(16, 1fr);
+}
+
+
+.sketch-grid {
+	border-width: 1px;
+	border-style: solid;
+	padding-bottom: 90%;
+}
